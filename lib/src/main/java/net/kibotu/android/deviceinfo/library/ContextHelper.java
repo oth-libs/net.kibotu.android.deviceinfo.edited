@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * Created by Jan Rabe on 30/09/15.
  */
-class ContextHelper {
+public class ContextHelper {
 
     @Nullable
     private static WeakReference<Application> application;
